@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/layout">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="444dp"
+        android:layout_weight="0.76"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:id="@+id/level_list"></GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back_button" />
+
+</LinearLayout>
